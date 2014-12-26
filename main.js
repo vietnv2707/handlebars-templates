@@ -269,6 +269,7 @@ define(function (require, exports, module) {
 		htmlLanguage.removeFileExtension("hbr");
 		htmlLanguage.removeFileExtension("hbs");
 		htmlLanguage.removeFileExtension("handlebars");
+		htmlLanguage.removeFileExtension("html");
 		fileExtensions = ["hbr", "handlebars", "hbs", "html"];
 	}
 
